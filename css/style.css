@@ -132,22 +132,15 @@ h1 {
     margin: 30px auto;
 }
 
-.col-blu {
-    background-color: #1e90ff;
+/* .col-blu {
     width: 600px;
     height: 300px;
 }
 
 .col-pink {
-    background-color: #ffc0cb;
     width: 400px;
     height: 300px;
-}
-
-.bg-grey {
-    background-color: gray;
-    border: 30px auto;
-}
+} */
 
 #sezione-big {
     background-color: #228b22;
