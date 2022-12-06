@@ -124,6 +124,7 @@ h1 {
     color: white;
 }
 
+
 /* layout sections */
 
 /* colonne è per la distanza tra sezioni, che non so come chiamare */
@@ -132,20 +133,41 @@ h1 {
     margin: 30px auto;
 }
 
-/* .col-blu {
+.pic {
     width: 600px;
     height: 300px;
 }
 
-.col-pink {
-    width: 400px;
+.text {
+    width: 200px;
     height: 300px;
-} */
+    text-align: left;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.last-tx,
+.last-p,
+.stars {
+    text-align: center;
+}
 
 #sezione-big {
-    background-color: #228b22;
     width: 900px;
     min-height: 300px;
+}
+
+.download-btm.bottom-btm {
+    background-color: #9aabe4;
+    color: white;
 }
 
 /* footer */
@@ -179,4 +201,9 @@ hr {
 #button {
     background-color: gray;
     margin: 10px 0;
+}
+
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
 }
