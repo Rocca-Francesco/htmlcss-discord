@@ -12,12 +12,6 @@
     font: inherit;
 }
 
-img,
-svg,
-picture,
-video {
-    min-height: 100vh;
-}
 
 /* Utils */
 
@@ -30,18 +24,7 @@ video {
     display: flex;
 }
 
-/* #logo,
-#link,
-#login,
-.notizia,
-.col-blu,
-.col-pink,
-#sezione-big,
-#red,
-#logo-bottom,
-#button {
-    border: 2px dashed black;
-} */
+
 
 /* header */
 
@@ -76,8 +59,8 @@ a {
 
 #logo,
 #login {
-    width: 250px;
-    height: 20px;
+    max-width: 250px;
+    max-height: 200px;
 }
 
 
@@ -85,6 +68,7 @@ a {
     text-align: right;
     background-color: white;
     border-radius: 20px;
+    padding: px;
 }
 
 /* notizia principale/slider */
@@ -134,8 +118,8 @@ h1 {
 }
 
 .pic {
-    width: 600px;
-    height: 300px;
+    max-width: 600px;
+    max-height: 300px;
 }
 
 .text {
