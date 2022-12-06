@@ -30,7 +30,7 @@ video {
     display: flex;
 }
 
-#logo,
+/* #logo,
 #link,
 #login,
 .notizia,
@@ -41,18 +41,18 @@ video {
 #logo-bottom,
 #button {
     border: 2px dashed black;
-}
+} */
 
 /* header */
 
 header {
-    background-color: #9ac0cc;
+    background-color: #3161e0;
     padding: 10px;
 
 }
 
 .intestazione {
-    background-color: #c3941d;
+    background-color: #3161e0;
 }
 
 #logo,
@@ -64,24 +64,32 @@ header {
 #link {
     flex-grow: 1;
     text-align: center;
+
 }
 
 a {
     text-decoration: none;
+    color: white;
+    padding: 0 5px;
+
 }
 
 #logo,
 #login {
     width: 250px;
+    height: 20px;
 }
 
-#login {
+
+#login>p {
     text-align: right;
+    background-color: white;
+    border-radius: 20px;
 }
 
 /* notizia principale/slider */
 
-#slider {
+#jumbotron {
     background-color: #00008b;
     min-height: 300px;
     align-items: center;
@@ -89,10 +97,31 @@ a {
 }
 
 .notizia {
-    background-color: #ee82ee;
-    border-radius: 10px;
+    background-color: transparent;
     height: 250px;
-    width: 700px;
+    width: 550px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 70px;
+}
+
+.download-btm {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    line-height: 60px;
+}
+
+.download-btm.browser {
+    background-color: black;
+    color: white;
 }
 
 /* layout sections */
