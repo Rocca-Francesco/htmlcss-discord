@@ -1,0 +1,160 @@
+/* CSS Reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+img,
+svg,
+picture,
+video {
+    min-height: 100vh;
+}
+
+/* Utils */
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+#logo,
+#link,
+#login,
+.notizia,
+.col-blu,
+.col-pink,
+#sezione-big,
+#red,
+#logo-bottom,
+#button {
+    border: 2px dashed black;
+}
+
+/* header */
+
+header {
+    background-color: #9ac0cc;
+    padding: 10px;
+
+}
+
+.intestazione {
+    background-color: #c3941d;
+}
+
+#logo,
+#link,
+#login {
+    padding: 5px;
+}
+
+#link {
+    flex-grow: 1;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo,
+#login {
+    width: 250px;
+}
+
+#login {
+    text-align: right;
+}
+
+/* notizia principale/slider */
+
+#slider {
+    background-color: #00008b;
+    min-height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.notizia {
+    background-color: #ee82ee;
+    border-radius: 10px;
+    height: 250px;
+    width: 700px;
+}
+
+/* layout sections */
+
+/* colonne è per la distanza tra sezioni, che non so come chiamare */
+
+.colonne {
+    margin: 30px auto;
+}
+
+.col-blu {
+    background-color: #1e90ff;
+    width: 600px;
+    height: 300px;
+}
+
+.col-pink {
+    background-color: #ffc0cb;
+    width: 400px;
+    height: 300px;
+}
+
+.bg-grey {
+    background-color: gray;
+    border: 30px auto;
+}
+
+#sezione-big {
+    background-color: #228b22;
+    width: 900px;
+    min-height: 300px;
+}
+
+/* footer */
+
+.bg-black {
+    background-color: #23272a;
+}
+
+#red {
+    background-color: #f08080;
+    min-width: 150px;
+    height: 300px;
+}
+
+.water {
+    background-color: #20b2aa;
+    width: calc(100% / 4);
+    border: 2px dashed white;
+}
+
+.sfondo-fine {
+    background-color: #7fffd4;
+    justify-content: space-between;
+}
+
+hr {
+    margin: 10px;
+}
+
+#logo-bottom,
+#button {
+    background-color: gray;
+    margin: 10px 0;
+}
